@@ -9,4 +9,6 @@ Gem::Specification.new do |s|
   s.description = %q{Collapse directories}
   s.rubyforge_project = "collapse"
   s.files = ["lib/collapse.rb"]
+  s.add_development_dependency("cucumber")
+  s.add_development_dependency("aruba")
 end
